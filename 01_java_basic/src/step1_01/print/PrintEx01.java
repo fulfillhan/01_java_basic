@@ -2,6 +2,7 @@ package step1_01.print; // 1)패키지 선언문은 '항상' 첫줄에 작성한
 
 // 2) 주석(comment) : 설명문을 작성하기 위한 방법, 프로그램의 실행에 영향을 미치지 않는다.
 
+// 인텔리제이 킷허브 연동 연습
 //2-1) 라인(line) 주석 :  한 줄 주석
 //충돌
 /*  
@@ -50,6 +51,7 @@ public class PrintEx01 {
 		System.out.println("========");
 		System.out.println("메뉴 선택");//sysout+ctrl+space바
 		System.out.println("========");//sout+ctrl+space바
+		
 		
 		//출력데이터가 없으면 줄바꿈 기능만 적용하여 한줄을 띄운다.(띄어쓰기 기능)
 		System.out.println();
