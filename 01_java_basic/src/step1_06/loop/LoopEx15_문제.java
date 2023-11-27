@@ -12,15 +12,16 @@ import java.util.Random;
  * . 전교생(10명)의 총점과 평균을 출력한다.
  * . 합격자 수를 출력한다.
  * . 1등 학생의 번호와 성적을 출력한다.
- * 
  */
 
-public class LoopEx15_문제 {
 
+public class LoopEx15_문제 {
+	
 	public static void main(String[] args) {
 		Random ran = new Random();
 		
 		int randomScore = ran.nextInt(100);
 	}
+
 
 }

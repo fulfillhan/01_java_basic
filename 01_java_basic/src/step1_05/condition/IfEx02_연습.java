@@ -1,5 +1,5 @@
 package step1_05.condition;
-
+//2023-11-25 13:05 ~ 13:11
 import java.util.Scanner;
 
 /*
@@ -13,29 +13,24 @@ import java.util.Scanner;
  * 3) me가 com보다 크면 Down! 출력
  */
 
-
-public class IfEx02_풀이 {
-
+public class IfEx02_연습 {
+	
 	public static void main(String[] args) {
-	
-		Scanner scan = new Scanner(System.in);
-		
-		int com = 8;
-		
-		System.out.println("숫자 입력 : ");
-		int me = scan.nextInt();
-		
-		if (me < com) {
-			System.out.println("Up!");
-		}
-		if (me == com) {
-			System.out.println("Bingo!");
-		}
-		if (me > com) {
-			System.out.println("Down!");
-		}
-	
-		scan.close();
+		 Scanner scan =  new Scanner(System.in);
+		 
+			int com = 8;	
+			
+			System.out.print("숫자 입력 : ");
+			int me = scan.nextInt();
+			
+			if (me < com) {
+				System.out.println("up!");
+			}
+			else if (me > com) {
+				System.out.println("Down!");
+			}else {
+				System.out.println("Bingo!");
+			}
+			scan.close();
 	}
-
 }

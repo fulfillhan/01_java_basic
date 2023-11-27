@@ -13,7 +13,7 @@ package step1_06.loop;
 public class LoopEx12_정답예시 {
 
 	public static void main(String[] args) {
-		
+		//while 반복문 사용
 		int i = 1;
 		
 		while (i <= 50) {
@@ -27,9 +27,9 @@ public class LoopEx12_정답예시 {
 			if (location1 != 0  && location1 % 3 == 0)  count369++;
 			
 			
-			if		(count369 == 2) System.out.println("짝짝");
-			else if (count369 == 1) System.out.println("짝");
-			else 					   System.out.println(i);
+			if		(count369 == 2) System.out.print("짝짝 ");
+			else if (count369 == 1) System.out.print("짝 ");
+			else 					   System.out.print(i+ " ");
 			
 			i++;
 			

@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 
 
-public class IfEx04_풀이 {
+public class IfEx04_연습 {
 
 	public static void main(String[] args) {
 		
