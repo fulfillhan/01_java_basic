@@ -1,5 +1,7 @@
 package step1_05.condition;
 
+import java.util.Scanner;
+
 /*
  * # 최대값 구하기[1단계]
  * 
@@ -11,10 +13,6 @@ package step1_05.condition;
 
 public class IfEx12_문제 {
 
-	public static void main(String[] args) {
-		
-		
-
-	}
+	
 
 }
