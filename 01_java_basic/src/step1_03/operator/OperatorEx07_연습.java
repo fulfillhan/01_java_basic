@@ -1,6 +1,6 @@
 package step1_03.operator;
 
-public class OperatorEx07_풀이 {
+public class OperatorEx07_연습 {
 	
 	public static void main(String[] args) {
 		

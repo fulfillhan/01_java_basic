@@ -17,7 +17,7 @@ import java.util.Random;
  * 
  */
 
-public class LoopEx24_풀이 {
+public class LoopEx24_연습 {
 
 	public static void main(String[] args) {
 		Random ran = new Random();

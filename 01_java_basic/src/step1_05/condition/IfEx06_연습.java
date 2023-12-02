@@ -12,7 +12,7 @@ import java.util.Scanner;
  * 4. 정답을 비교 "정답" 또는 "땡"을 출력한다.
  */
 
-public class IfEx06_연습11_27 {
+public class IfEx06_연습 {
 	
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
