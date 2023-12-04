@@ -1,5 +1,5 @@
 package step1_05.condition;
-
+//2023-12-01 11:32 ~ 11:36
 import java.util.Scanner;
 
 /*
@@ -23,6 +23,21 @@ public class IfEx04_연습 {
 		int dbPw = 1111;
 		
 		
+		System.out.print("id 입력 : ");
+		int myId = scan.nextInt();
+		
+		System.out.print("pw 입력 : ");
+		int myPw = scan.nextInt();
+		
+		if (myId == dbId && myPw == dbPw) {
+			System.out.println("로그인 성공.");
+		}
+		else if (myId != dbId || myPw != dbPw) {
+			System.out.println("로그인 실패");
+		}
+		/*
+		 * else { System.out.println("로그인 실패"); }
+		 */
 
 
 	}
