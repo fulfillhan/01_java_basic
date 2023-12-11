@@ -42,7 +42,7 @@ package step1_01.print; // 1)패키지 선언문은 '항상' 첫줄에 작성한
  * */
 
 public class PrintEx01 {
-
+  // 인텔리제이 커밋 연습
 	public static void main(String[] args) {//(주석) main메서드의 {} 안에서 프로그래밍을 한다.
 		
 		//tab으로 들여쓰기를 한 이후 코드를 작성한다.
