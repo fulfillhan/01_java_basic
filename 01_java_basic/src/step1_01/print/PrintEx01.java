@@ -2,7 +2,7 @@ package step1_01.print; // 1)패키지 선언문은 '항상' 첫줄에 작성한
 
 // 2) 주석(comment) : 설명문을 작성하기 위한 방법, 프로그램의 실행에 영향을 미치지 않는다.
 
-// 인텔리제이 킷허브 연동 연습
+
 //2-1) 라인(line) 주석 :  한 줄 주석
 //충돌
 /*  
@@ -42,7 +42,7 @@ package step1_01.print; // 1)패키지 선언문은 '항상' 첫줄에 작성한
  * */
 
 public class PrintEx01 {
-  // 인텔리제이 커밋 연습
+
 	public static void main(String[] args) {//(주석) main메서드의 {} 안에서 프로그래밍을 한다.
 		
 		//tab으로 들여쓰기를 한 이후 코드를 작성한다.
