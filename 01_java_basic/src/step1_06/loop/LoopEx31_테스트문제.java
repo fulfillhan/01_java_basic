@@ -25,6 +25,8 @@ public class LoopEx31_테스트문제 {
 
 	public static void main(String[] args) {
 
+		
+		
 	}
 
 }
