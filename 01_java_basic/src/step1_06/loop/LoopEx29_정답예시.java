@@ -22,9 +22,10 @@ public class LoopEx29_정답예시 {
 		int getPrimeNumber = scan.nextInt();
 		int count = 0;
 		
+		// 소수를 찾을 범위 구하기!
 		for (int i = 2; i <= getPrimeNumber; i++) {
 			
-			count = 0;
+			count = 0; //i의 약수의 개수
 			for (int j = 1; j <= i; j++) {
 				if (i % j == 0) count++;
 			}
